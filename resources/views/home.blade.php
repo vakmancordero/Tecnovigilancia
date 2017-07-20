@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#">
+            <a href="/calendar">
                 <div class="panel-footer">
                     <span class="pull-left">Administrar mantenimiento</span>
                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

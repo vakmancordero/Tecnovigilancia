@@ -38,14 +38,13 @@
                            data-search="true"
                            data-show-toggle="true"
                            data-show-refresh="true">
-
                         <thead>
-                        <tr>
-                            <th data-field="state" data-checkbox="true"></th>
-                            <th data-field="name" data-align="center" data-sortable="true">Nombre</th>
-                            <th data-field="email" data-align="center" data-sortable="true">E-mail</th>
-                            <th data-formatter="" data-sortable="true">Editar</th>
-                        </tr>
+                            <tr>
+                                <th data-field="state" data-checkbox="true"></th>
+                                <th data-field="name" data-align="center" data-sortable="true">Nombre</th>
+                                <th data-field="email" data-align="center" data-sortable="true">E-mail</th>
+                                <th data-formatter="" data-sortable="true">Editar</th>
+                            </tr>
                         </thead>
                     </table>
                 </div>

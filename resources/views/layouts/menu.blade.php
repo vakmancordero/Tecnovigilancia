@@ -40,19 +40,23 @@
                     <a href="/"><i class="fa fa-fw fa-dashboard"></i> Inicio </a>
                 </li>
                 @isset(Auth::user()->name)
-                <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#demo">
-                        <i class="fa fa-user-circle"></i>
-                        Usuarios <i class="fa fa-fw fa-caret-down"></i></a>
-                    <ul id="demo" class="collapse">
-                        <li>
-                            <a href="/users">Listar usuarios</a>
-                        </li>
-                        <li>
-                            <a href="/users/create">Crear un usuario nuevo</a>
-                        </li>
-                    </ul>
-                </li>
+                    <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo">
+                            <i class="fa fa-user-circle"></i>
+                            Usuarios <i class="fa fa-fw fa-caret-down"></i>
+                        </a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="/users">Listar usuarios</a>
+                            </li>
+                            <li>
+                                <a href="/users/create">Crear un usuario nuevo</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="/calendar"><i class="fa fa-calendar" aria-hidden="true"></i> Calendario </a>
+                    </li>
                 @endisset
             </ul>
         </div>
